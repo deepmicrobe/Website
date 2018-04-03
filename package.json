@@ -1,0 +1,35 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Simple website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepmicrobe/Website.git"
+  },
+  "author": "Leander Stevano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepmicrobe/Website/issues"
+  },
+  "homepage": "https://github.com/deepmicrobe/Website#readme",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "^3.0.5",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "upper-case": "^1.1.3"
+  }
+}
